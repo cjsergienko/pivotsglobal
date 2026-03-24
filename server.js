@@ -53,11 +53,11 @@ function makeRawEmail({ to, replyTo, subject, text }) {
 app.use((req, res, next) => {
   res.setHeader('Content-Security-Policy',
     "default-src 'self' 'unsafe-inline' 'unsafe-eval' data:; " +
-    "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com; " +
+    "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com https://www.googletagmanager.com https://www.google-analytics.com; " +
     "style-src 'self' 'unsafe-inline'; " +
-    "img-src 'self' data: blob:; " +
+    "img-src 'self' data: blob: https://www.google-analytics.com https://www.googletagmanager.com; " +
     "font-src 'self' data:; " +
-    "connect-src 'self' https://cloudflareinsights.com; " +
+    "connect-src 'self' https://cloudflareinsights.com https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com; " +
     "frame-src 'self'"
   );
   next();
