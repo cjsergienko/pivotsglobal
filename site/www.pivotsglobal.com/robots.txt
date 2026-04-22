@@ -2,23 +2,11 @@ User-agent: *
 Allow: /
 Disallow: /cdn-cgi/
 
-# Block known scrapers and AI training bots
-User-agent: GPTBot
-Disallow: /
-
+# Additional bots not covered by Cloudflare managed block
 User-agent: ChatGPT-User
 Disallow: /
 
-User-agent: CCBot
-Disallow: /
-
 User-agent: anthropic-ai
-Disallow: /
-
-User-agent: Google-Extended
-Disallow: /
-
-User-agent: ClaudeBot
 Disallow: /
 
 User-agent: AhrefsBot
