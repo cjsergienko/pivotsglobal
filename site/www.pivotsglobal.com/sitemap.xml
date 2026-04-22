@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.pivotsglobal.com/</loc>
-    <lastmod>2026-03-24</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://cdn.prod.website-files.com/672b529a4bccb17eb576e89e/6961b53edbdc7b6afe2bd730_web_logo%20(7).png</image:loc>
+      <image:title>Pivots Global — Top European Engineering Talent</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.prod.website-files.com/672b529a4bccb17eb576e89e/6913b89c33a56bc62e1743b2_pivots.jpeg</image:loc>
+      <image:title>Sergei Sergienko — Partner, Co-Founder, Pivots Global</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.pivotsglobal.com/contact-v3</loc>
-    <lastmod>2026-03-24</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
