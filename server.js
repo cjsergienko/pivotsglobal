@@ -7,7 +7,7 @@ const ROOT = path.join(__dirname, 'site/www.pivotsglobal.com');
 
 const CREDENTIALS_PATH = path.join(__dirname, 'config/gmail-credentials.json');
 const TOKEN_PATH = path.join(__dirname, 'config/gmail-token-finance.json');
-const SEND_TO = 'ssergienko@pivotsglobal.com';
+const SEND_TO = 'ssergienko@pivotsdoo.com';
 
 async function getAccessToken() {
   const creds = JSON.parse(fs.readFileSync(CREDENTIALS_PATH, 'utf-8')).installed;
